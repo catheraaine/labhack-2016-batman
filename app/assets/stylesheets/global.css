@@ -10,13 +10,20 @@ h1 {
 
 .container {
   text-align: center;
-  max-width: 30em;
+  min-width: 30em;
   margin: auto;
   margin-top: 2em;
   padding: 2em;
   border-radius: 1em;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
+}
+
+
+@media (min-width: 45.25em) {
+  .container {
+    max-width: 30em;
+  }
 }
 
 .find {
