@@ -20,7 +20,7 @@ h1 {
 }
 
 
-@media (min-width: 45.25em) {
+@media (min-width: 50.25em) {
   .container {
     max-width: 30em;
   }
