@@ -1,0 +1,70 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, Times, serif;
+
+}
+
+
+.container {
+  text-align: center;
+  max-width: 30em;
+  margin: auto;
+  margin-top: 2em;
+  padding: 2em;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+}
+
+.find {
+  background-color: #C0FDFB;
+  border: 5px solid #0F084B;
+  color: #0F084B;
+}
+
+.button {
+  margin: 1em;
+  margin-top: 2em;
+  display: inline-block;
+
+}
+
+.button a:link, a:visited {
+  padding: .75em;
+  color: black;
+  background-color: #FFFFb3;
+  text-decoration: none;
+  border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border: 2px solid #003399;
+}
+
+.button a:hover {
+  background-color: #ffff11;
+
+}
+
+.button a:active{
+
+}
+
+.go {
+  background-color: #99ff99;
+  border: 2px solid #003399;
+  padding: .75em;
+  color: black;
+  cursor: pointer;
+  border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+
+}
+
+.go:hover {
+  background-color: #00e600;
+
+}

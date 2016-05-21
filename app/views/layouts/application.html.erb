@@ -6,9 +6,22 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
 
-</body>
+  <body>
+    <%= yield %>
+    <div class="find container">
+      <h1> ICE Location Finder </h1>
+      <p>Please allow us to access your location.</p>
+      <div class="button"><a href="javascript:window.location.href=window.location.href">Ask Me Again</a></div>
+      <div id="button-get-position" class="button go">Get My Location</div>
+
+      <h2>Your Current Location is:</h2>
+      <p></p>
+
+    </div>
+
+  </body>
+
+
 </html>
