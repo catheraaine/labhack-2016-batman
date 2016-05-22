@@ -3,15 +3,15 @@ body {
 }
 
 h1 {
-  font-family: Georgia, Times, serif;
-
+  /*font-family: Georgia, Times, serif;*/
+  color: #D00;
 }
 
 
 .container {
   text-align: center;
-  min-width: 30em;
   margin: auto;
+  width: 95%;
   margin-top: 2em;
   padding: 2em;
   border-radius: 1em;
@@ -20,16 +20,14 @@ h1 {
 }
 
 
-@media (min-width: 50.25em) {
+@media (min-width: 54.25em) {
   .container {
     max-width: 30em;
   }
 }
 
 .find {
-  background-color: #C0FDFB;
-  border: 5px solid #0F084B;
-  color: #0F084B;
+  color: black;
 }
 
 .button {
@@ -41,13 +39,10 @@ h1 {
 
 .button a:link, a:visited {
   padding: .75em;
-  color: black;
-  background-color: #FFFFb3;
+  background-color: #DDD;
   text-decoration: none;
-  border-radius: .5em;
-    -webkit-border-radius: .5em;
-    -moz-border-radius: .5em;
-    border: 2px solid #003399;
+  border: 1px solid black;
+  color: black;
 }
 
 .button a:hover {
@@ -55,19 +50,15 @@ h1 {
 
 }
 
-.button a:active{
-
-}
-
 .go {
-  background-color: #99ff99;
-  border: 2px solid #003399;
+  background-color: #DDD;
+  border: 1px solid black;
   padding: .75em;
   color: black;
   cursor: pointer;
-  border-radius: .5em;
+  /*border-radius: .5em;
     -webkit-border-radius: .5em;
-    -moz-border-radius: .5em;
+    -moz-border-radius: .5em;*/
 
 }
 
